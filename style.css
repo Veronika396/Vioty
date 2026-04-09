@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Manrope", sans-serif; 
+
+    --font-roboto: "Roboto", sans-serif;
+    --font-alex: "Alexandria", sans-serif;
+
+    --bob: rgb(214, 90, 214);
+    --main-color: rgb(3, 5, 131);
+    --foot: rgba(21, 21, 21, 1);
+}
+
+body {
+    background-color: var(--bob);
+    color: rgba(255, 255, 255, 1);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+
+    width: 100%;
+    height: 132px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.446);
+    z-index: 99999;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+
+nav a {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+header button {
+    width: 36px;
+    height: 36px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+header div {
+    display: flex;
+    gap: 15px;
+}
+
+header button img {
+    position: relative;
+    top: 2px;
+}
+
+
+
+/* sec1 */
+
+.sec1 {
+    width: 100%;
+    height: 588px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin-top: 100px;
+}
+
+.sec1 strong {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 10%;
+
+}
+
+.sec1 h1 {
+    font-family: var(--font-alex);
+    font-weight: 400;
+    font-size: 57px;
+    width: 587px;
+    line-height: 94%;
+    letter-spacing: -7%;
+    margin-top: 20px;
+}
+
+.sec1 span {
+    color: var(--main-color);
+}
+
+.sec1 p {
+    font-weight: 400;
+    font-size: 18px;
+    width: 578px;
+    height: 78px;
+    opacity: 0.6;
+    margin-top: 16px;
+}
+
+.sec1 button {
+    margin-top: 48px;
+
+    width: 165px;
+    height: 49px;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    border: none;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+}
+
+/* sec2 */
+
+.sec2 {
+    width: 100%;
+    height: 459px;
+}
+
+.sec2 h1 {
+    font-family: var(--font-alex);
+    font-weight: 400;
+    font-size: 57.55px;
+    line-height: 100%;
+    text-align: center;
+    width: 1248px;
+    margin-top: 129px;
+    position: relative;
+    left: 150px;
+}
+
+.sec2 span {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.img1 {
+    top: 953px;
+    left: 119px;
+}
+
+.img2 {
+    position: relative;
+    top: -40px;
+    left: 100px;
+}
+
+.img3 {
+    position: relative;
+    z-index: -1;
+}
+
+/* sec3 */
+
+.sec3 {
+    width: 100%;
+    height: 680px;
+}
+
+.sec3 h1 {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 94%;
+    letter-spacing: -7%;
+}
+
+.sec3 button {
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 920px;
+}
+
+.tatodiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    height: 520px;
+    margin-top: 65px;
+    margin-left: 280px;
+}
+
+.tatodiv div {
+    width: 267px;
+    height: 540px;
+    background: rgba(21, 21, 21, 1);
+    border-radius: 20px;
+    padding-left: 30px;
+}
+
+.tatodiv img {
+    margin-left: -30px;
+    height: 270px;
+    width: 297px;
+}
+
+.tatodiv h3 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 24px;
+}
+
+.tatodiv p {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    width: 216px;
+    opacity: 0.7;
+    margin-top: 18px;
+}
+
+.tatodiv b {
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 28px;
+}
+
+.tatodiv s {
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+
+.tatodiv button {
+    width: 237px;
+    height: 49px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(210, 49, 102, 1);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-top: 16px;
+}
+
+.sec4 {
+    width: 100%;
+    height: 930px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sec4 h1 {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 94%;
+    letter-spacing: -7%;
+    width: 466px;
+}
+
+.sec4 span {
+    color: var(--main-color);
+}
+
+.sec4 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 466px;
+    opacity: 0.6;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+
+.div2 {
+    display: flex;
+    gap: 12px;
+    margin-top: 48px;
+}
+
+.sec5 {
+    width: 100%;
+    height: 684px;
+    text-align: center;
+    background-image: url(/imga/img-form-Background.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec5 h1 {
+    font-family: var(--font-alex);
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 94%;
+    letter-spacing: -7%;
+    width: 603px;
+    position: relative;
+    left: 30%;
+    top: 223px;
+}
+
+.sec5 span {
+    color: var(--main-color);
+}
+
+.sec5 div {
+    width: 620px;
+    height: 74px;
+    opacity: 1;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    position: relative;
+    top: 290px;
+    left: 465px;
+}
+
+.sec5 input {
+    background: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    opacity: 0.6;
+    border: none;
+    text-align: left;
+    position: relative;
+    left: -90px;
+}
+
+.sec5 button {
+    width: 134px;
+    height: 74px;
+    border-radius: 1000px;
+    background-color: var(--main-color);
+    border: none;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    position: relative;
+    left: 130px;
+}
+
+
+/* foo */
+
+footer {
+    width: 100%;
+    height: 256px;
+
+    background-color: var(--foot);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 176px;
+    padding-top: 100px;
+}
+
+footer .bob p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 1%;
+    width: 212px;
+    margin-top: 24px;
+    opacity: 0.7;
+}
+
+footer button {
+    width: 36px;
+    height: 36px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-top: 24px;
+}
+
+footer h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+}
+
+footer p {
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.bob div {
+    display: flex;
+    gap: 15px;
+}
+
+footer button img {
+    position: relative;
+    top: 2px;
+}
+
+.burger {
+    display: none;
+}
+
+.nav2 {
+    display: none;
+}
+
+@media(max-width: 430px) {
+    .nav1 {
+        display: none;
+    }
+
+    header {
+        width: 430px;
+        gap: 50px;
+        position: relative;
+    }
+
+    .logo {
+        width: 70px;
+    }
+
+    header div button {
+        width: 20px;
+        height: 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav2 {
+        display: block;
+        width: 200px;
+        height: 200px;
+        background-color: rgba(49, 48, 48, 0.817);
+        position: absolute;
+        top: 90px;
+        left: 260px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    .nav2.active{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
